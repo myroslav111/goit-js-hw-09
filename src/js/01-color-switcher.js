@@ -42,7 +42,7 @@ function onBtnClickChangeStatus(){
 
 // фун. изменения цвета фона боди при клике на start
 function changeColorBody() {
-  refs.body.style.backgroundColor = getRandomHexColor()
+  refs.body.style.backgroundColor = getRandomHexColor();
 }
 
 
@@ -50,48 +50,3 @@ function changeColorBody() {
 
 
 
-
-
-
-
-
-
-// console.log('1');
-// setTimeout(() => {console.log('hallo')}, 2000)
-// console.log('2');
-
-// const logger = time => {
-//     console.log(`hallo ${time}`);
-// }
-
-// const timerId = setTimeout(logger, 2000, 'mango')
-
-
-
-
-
-// console.log('1');
-
-// const timerId = setInterval(logger, 2000, 'mango')
-// console.log('2');
-// const random = Math.random() > 0.3
-// console.log(random);
-// if(random){
-//     clearInterval(timerId)
-// }
-
-// const PROMT_DELAY = 1000
-// const MAX_PROMT_ATTEMPTS = 3
-
-// let coun = 0 
-// let = false
-
-// const intervalId = setInterval(() => {
-//   if(coun === MAX_PROMT_ATTEMPTS){
-//     console.log('stop');
-//     clearInterval(intervalId)
-//     return
-//   }
-//   console.log('do');
-//   coun += 1
-// }, PROMT_DELAY)

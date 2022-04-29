@@ -42,7 +42,7 @@ function onBtnClickChangeStatus(){
 
 // фун. изменения цвета фона боди при клике на start
 function changeColorBody() {
-  refs.body.style.backgroundColor = getRandomHexColor()
+  refs.body.style.backgroundColor = getRandomHexColor();
 }
 
 
